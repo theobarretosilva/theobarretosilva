@@ -1,7 +1,10 @@
-## Olá!! Eu sou o Théo Silva!
+## Olá!! Eu sou o Théo!
 
-- Estudando front-end, back-end e full-stack
-- Pronouns: ele/dele
+<div align= "center">
+  Eaí gente, meu nome é Théo Barreto Silva e eu vou contar um pouquinho sobre mim. Tenho 16 anos e estudo no SENAI. Gosto muito de programar, especialmente no Android Studio, porém passei no processo seletivo do DEVinHouse e agora estou me aprofundando mais na programação. Uso diariamente Java, PostgreSQL e já usei bastante Sheel Script.
+</div>
+
+<br>
 
 <div align="center">
   <a href="https://github.com/theobarretosilva">
