@@ -1,7 +1,7 @@
 ## Olá!! Eu sou o Théo!
 
 <div align= "center">
-  Eaí gente, meu nome é Théo Barreto Silva e eu vou contar um pouquinho sobre mim. Tenho 16 anos e estudo no SENAI. Gosto muito de programar, especialmente no Android Studio, porém passei no processo seletivo do DEVinHouse e agora estou me aprofundando mais na programação. Uso diariamente Java, PostgreSQL e já usei bastante Sheel Script.
+  Eaí gente, meu nome é Théo Barreto Silva e eu vou contar um pouquinho sobre mim. Tenho 16 anos e estudo no SENAI. Gosto muito de programar, especialmente no Android Studio, porém passei no processo seletivo do DEVinHouse e agora estou me aprofundando mais na programação. Uso diariamente Java, PostgreSQL e já usei bastante Linux Sheel Script.
 </div>
 
 <br>
