@@ -5,18 +5,12 @@ export const HeaderbarStyled = styled.header`
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
-    justify-content: center;
-`
-
-export const NavbarStyled = styled.nav`
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    gap: 1000px;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
 `
 
 export const PCurriculoStyled = styled.p`
@@ -35,13 +29,9 @@ export const BtnPortfolioStyled = styled.button`
     font-family: 'Arbutus Slab', sans-serif;
     font-weight: 400;
     font-size: 19px;
-    text-decoration: underline;
-    padding-left: 1.8%;
-    padding-right: 1.8%;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 20%;
     height: 82%;
-    margin-top: 0.5%;
+    margin-top: 7%;
     cursor: pointer;
 
     :hover{
