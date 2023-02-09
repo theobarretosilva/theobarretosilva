@@ -1,7 +1,7 @@
 ## Olá!! Eu sou o Théo!
 
 <div align= "center">
-  Meu nome é Théo Barreto Silva e eu vou contar um pouquinho sobre mim. Tenho 17 anos e estudo no SENAI. Gosto muito de programar, especialmente no Android Studio, porém passei no processo seletivo do DEVinHouse e agora estou me aprofundando mais na programação. Uso diariamente Java, JavaScript, TyprScript e React!
+  Meu nome é Théo Barreto Silva e eu vou contar um pouquinho sobre mim. Tenho 17 anos e faço o curso DEVinHouse[Intelbras]. Fiz o ensino médio técnico em Desenvolvimento de Sistemas no SENAI. Gosto muito de programar, especialmente no Front-end, porém já desenvolvi vários projetos usando Android Studio na linguagem Java.
 </div>
 
 <br>
