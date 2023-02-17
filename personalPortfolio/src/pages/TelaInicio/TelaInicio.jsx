@@ -1,10 +1,14 @@
-import { Navbar } from "../../components/Navbar/Navbar"
-import { HeaderStyled } from "../../components/Navbar/Navbar.styled"
+import { Link } from "react-router-dom"
+import { NavbarStyled } from "../../components/Navbar/Navbar"
+import { PNavStyled } from "../../components/Navbar/Navbar.styled"
 
 export const TelaInicio = () => {
     return(
         <>
-            <Navbar />
+            <NavbarStyled
+                componentInicio={<PNavStyled style={{ textDecoration:'underline', cursor: 'default' }}>Início</PNavStyled>}
+                componentProjetos={<Link to={'/projetos'} style={{ textDecoration: 'none' }}><PNavStyled>Projetos</PNavStyled></Link>}
+            />
         </>
     )
 }

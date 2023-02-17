@@ -5,8 +5,8 @@ import { TelaProjetos } from "../pages/TelaProjetos/TelaProjetos"
 export const Router = () => {
     return(
         <Routes>
-            <Route exact path="/" element={<TelaInicio />} />
-            <Route exact path="/projetos" element={<TelaProjetos />} />
+            <Route exact path={"/"} element={<TelaInicio />} />
+            <Route exact path={"/projetos"} element={<TelaProjetos />} />
         </Routes>
     )
 }

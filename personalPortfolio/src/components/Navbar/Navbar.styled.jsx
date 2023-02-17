@@ -7,6 +7,7 @@ export const HeaderStyled = styled.header`
     flex-direction: row;
     justify-content: space-between;
     padding: 1vw 3vw;
+    align-items: center;
 `
 
 export const NomeTheoStyled = styled.p`
@@ -19,11 +20,12 @@ export const NomeTheoStyled = styled.p`
 export const DivNavStyled = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 3vw;
 `
 
 export const PNavStyled = styled.p`
     font-family: 'Arbutus Slab', sans-serif;
     color: white;
-    
+    font-size: 1.6vw;
+    cursor: pointer;
 `
