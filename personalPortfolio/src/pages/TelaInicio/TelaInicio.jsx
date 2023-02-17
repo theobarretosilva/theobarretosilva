@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { BarraHabInicio } from "../../components/BarraHabInicio/BarraHabInicio"
 import { ConteudoInicio } from "../../components/ConteudoInicio/ConteudoInicio"
 import { Lenguage } from "../../components/Lenguage/Lenguage"
 import { Navbar } from "../../components/Navbar/Navbar"
@@ -16,6 +17,7 @@ export const TelaInicio = () => {
                 <Lenguage />
                 <ConteudoInicio />
             </MainInicioStyled>
+            <BarraHabInicio />
         </>
     )
 }
