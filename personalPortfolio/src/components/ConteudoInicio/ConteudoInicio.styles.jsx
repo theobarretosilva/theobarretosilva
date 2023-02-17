@@ -9,13 +9,14 @@ export const DivConteudoInicioStyled = styled.div`
 
 export const TextSobreInicioStyled = styled.p`
     font-family: 'Arbutus Slab', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     color: white;
-    max-width: 42vw;
-    padding-bottom: 2vw;
+    max-width: 44vw;
+    padding-bottom: 4vw;
 `
 
 export const ImgTheoStyled = styled.img`
     width: 27vw;
     height: 27vw;
+    padding-bottom: 1.5vw;
 `
