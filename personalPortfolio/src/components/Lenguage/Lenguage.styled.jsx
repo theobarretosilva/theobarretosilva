@@ -7,6 +7,7 @@ export const DivLenguageStyled = styled.div`
     gap: 1.5vw;
     justify-content: flex-end;
     margin-right: 2vw;
+    padding-top: 0.5vw;
 `
 
 export const PLenguageStyled = styled.p`
