@@ -1,7 +1,7 @@
 import { DivNavStyled, HeaderStyled, NomeTheoStyled, PNavStyled } from "./Navbar.styled"
 import PropTypes from "prop-types"
 
-export const NavbarStyled = ({componentInicio, componentProjetos}) => {
+export const Navbar = ({componentInicio, componentProjetos}) => {
     return(
         <HeaderStyled>
             <NomeTheoStyled>Théo Silva</NomeTheoStyled>
@@ -13,7 +13,7 @@ export const NavbarStyled = ({componentInicio, componentProjetos}) => {
     )
 }
 
-NavbarStyled.propTypes = {
+Navbar.propTypes = {
     componentInicio: PropTypes.node.isRequired,
     componentProjetos: PropTypes.node.isRequired
 }
