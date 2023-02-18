@@ -10,7 +10,7 @@ export const FooterStyled = styled.footer`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2vw 3vw;
+    padding: 2vw 4vw;
     align-items: center;
 `
 
@@ -24,9 +24,10 @@ export const PCopyrightStyled = styled.p`
 export const DivLinksRodapeStyled = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: 3vw;
 `
 
 export const ImgLinksRodapeStyled = styled.img`
-    
+    width: 3.1vw;
+    height: 3.1vw;
 `
