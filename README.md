@@ -44,6 +44,7 @@
   <img align="center" alt="Théo-Canva" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
   <img align="center" alt="Théo-Slack" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" />
 </div>
+  
 ##
   
 <div style="display: inline_block"; align= "center";>
