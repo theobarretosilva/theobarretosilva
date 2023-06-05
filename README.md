@@ -21,7 +21,7 @@
   <img align="center" alt="Théo-TypeScript" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
   <img align="center" alt="Théo-PostgreSQL" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
   <img align="center" alt="Théo-Dart" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
-  <img align="center" alt="Théo-Go" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
+  <img align="center" alt="Théo-Python" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 </div>
   
 <br/>
