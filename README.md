@@ -1,7 +1,13 @@
 ## Olá!! Eu sou o Théo!
 
-<div align= "center">
-  Meu nome é Théo Barreto Silva e eu vou contar um pouquinho sobre mim. Tenho 17 anos e faço o curso DEVinHouse[Intelbras]. Fiz o ensino médio técnico em Desenvolvimento de Sistemas no SENAI e atualmente estou fazendo a minha graduação em ADS no Senai. Tenho como objetivo aprender cada vez mais para poder abranger ainda mais campos da tecnologia e desenvolvimento de sistemas. Programo especialmente Front-end, já desenvolvi vários projetos usando Android Studio na linguagem Java.
+<div align= "justify">
+  Eu sou um estudante de 17 anos com experiência em programação e desenvolvimento de sistemas. Concluí o curso DEVinHouse[Intelbras] e fiz o ensino médio técnico em Desenvolvimento de Sistemas no SENAI. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no Senai.
+
+Meu objetivo é continuar aprendendo e expandir meus conhecimentos na área de tecnologia e desenvolvimento de sistemas. Tenho interesse especial em programação Front-end e já desenvolvi vários projetos usando Android Studio com a linguagem Java.
+
+Tenho algumas certificações, incluindo o curso DEVInHouse[Intelbras] e o programa "Hellow: Descobrindo o Mundo da Tecnologia" do SENAI/SC.
+
+Além do português, sou fluente em inglês e tenho conhecimentos básicos de espanhol. Estou empenhado em continuar minha jornada de aprendizado e me aprimorar na área de tecnologia e desenvolvimento de sistemas.
 </div>
 
 <br>
