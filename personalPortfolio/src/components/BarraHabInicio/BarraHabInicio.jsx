@@ -3,18 +3,19 @@ import { DivBarraInicio, ImgHabInicio } from "./BarraHabInicio.styles"
 export const BarraHabInicio = () => {
     return(
         <DivBarraInicio>
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/java.png?raw=true" alt="Java" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/html.png?raw=true" alt="Html" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/css.png?raw=true" alt="Css" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/javaScript.png?raw=true" alt="JavaScript" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/typeScript.png?raw=true" alt="TypeScript" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/postgres.png?raw=true" alt="PostgreSQL" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/androidStudio.png?raw=true" alt="AndroidStudio" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/firebase.png?raw=true" alt="Firebase" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/react.png?raw=true" alt="React" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/nestjs.png?raw=true" alt="NestJS" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/docker.png?raw=true" alt="Docker" />
-            <ImgHabInicio src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/habilidades/aws.png?raw=true" alt="Aws" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="AndroidStudio" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" alt="NestJS" />
+            <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="Aws" />
         </DivBarraInicio>
     )
 }
