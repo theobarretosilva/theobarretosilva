@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
     background-image: url('https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/fundoNavbarMarmore.png?raw=true');
@@ -41,4 +41,5 @@ export const BtnBaixarCV = styled.button`
     font-size: 1.2rem;
     font-family: Inter;
     font-weight: 500;
+    cursor: pointer;
 `;
