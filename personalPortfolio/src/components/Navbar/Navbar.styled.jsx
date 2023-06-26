@@ -29,3 +29,16 @@ export const PNavStyled = styled.p`
     font-size: 1.6vw;
     cursor: pointer;
 `
+
+export const BtnBaixarCV = styled.button`
+    width: 10.625rem;
+    height: 3.125rem;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(62, 62, 62, 0.25);
+    border: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-family: Inter;
+    font-weight: 500;
+`;

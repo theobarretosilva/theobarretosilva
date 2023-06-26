@@ -1,15 +1,16 @@
-import { DivNavStyled, HeaderStyled, NomeTheoStyled, PNavStyled } from "./Navbar.styled"
+import * as S from "./Navbar.styled"
 import PropTypes from "prop-types"
 
 export const Navbar = ({componentInicio, componentProjetos}) => {
     return(
-        <HeaderStyled>
-            <NomeTheoStyled>Théo Silva</NomeTheoStyled>
-            <DivNavStyled>
+        <S.HeaderStyled>
+            <S.NomeTheoStyled>Théo Silva</S.NomeTheoStyled>
+            <S.DivNavStyled>
                 {componentInicio}
                 {componentProjetos}
-            </DivNavStyled>
-        </HeaderStyled>
+            </S.DivNavStyled>
+            <S.BtnBaixarCV>Baixar CV</S.BtnBaixarCV>
+        </S.HeaderStyled>
     )
 }
 
