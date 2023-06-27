@@ -5,7 +5,7 @@ export const DivBarraInicio = styled.div`
     flex-direction: row;
     justify-content: space-around;
     padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-bottom: 1.5vw;
 `
 
 export const ImgHabInicio = styled.img`
