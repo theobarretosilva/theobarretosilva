@@ -10,6 +10,11 @@ export const DivGeral = styled.div`
     align-items: center;
     text-align: center;
     pointer-events: none;
+    z-index: 10;
+
+    :hover {
+        background-color: red;
+    }
 `;
 
 export const ImgServico = styled.img`

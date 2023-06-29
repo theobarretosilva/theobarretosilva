@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionTec = styled.section`
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
     display: flex;
     flex-direction: column;
     align-items: center;

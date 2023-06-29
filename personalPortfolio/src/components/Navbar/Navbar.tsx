@@ -33,7 +33,7 @@ export const Navbar = () => {
                     offset={-50}
                     style={{ textDecoration: 'none', cursor: 'pointer' }}
                 >
-                    <Link to={'#inicio'} style={{ textDecoration: 'none' }}><S.PNavStyled style={{ textDecoration: 'underline' }}>Início</S.PNavStyled></Link>
+                    <Link to={'#inicio'} style={{ textDecoration: 'none' }}><S.PNavStyled style={{ textDecoration: 'none' }}>Início</S.PNavStyled></Link>
                 </ScrollLink>
                 <ScrollLink
                     to="sobre_mim"

@@ -26,7 +26,7 @@ export const DivNavStyled = styled.div`
 export const PNavStyled = styled.p`
     font-family: 'Arbutus Slab', sans-serif;
     color: white;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     cursor: pointer;
 `
 
