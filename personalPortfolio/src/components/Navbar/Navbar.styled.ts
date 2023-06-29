@@ -20,7 +20,7 @@ export const NomeTheoStyled = styled.p`
 export const DivNavStyled = styled.div`
     display: flex;
     flex-direction: row;
-    gap: 3vw;
+    gap: 2.2vw;
 `
 
 export const PNavStyled = styled.p`
