@@ -3,6 +3,7 @@ import React from "react"
 import * as S from './SectionServicos.styles'
 import { CardServico } from "../CardServico/CardServico"
 import { useState, useEffect, useRef } from "react"
+import data from '../../assets/json/dados_cards.json'
 
 export const SectionServicos = () => {
     const carousel = useRef();
@@ -23,11 +24,13 @@ export const SectionServicos = () => {
                         initial={{ x: 100 }}
                         animate={{ x: 0 }}
                         transition={{ duration: 0.5 }}>
-                        <CardServico />
-                        <CardServico />
-                        <CardServico />
-                        <CardServico />
-                        <CardServico />
+                            {data.map((value, key) => (
+                                <CardServico
+                                    img={value.imgPath}
+                                    titulo={value.titulo}
+                                    descricao={value.descricao}
+                                    key={key} />
+                            ))}
                     </S.InnerDivCards>
                 </S.DivCards>
             </S.SectionCentral>

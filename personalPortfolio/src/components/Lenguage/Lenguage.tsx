@@ -1,4 +1,5 @@
 import { DivLenguageStyled, PLenguageStyled } from "./Lenguage.styled"
+import React from "react"
 
 export const Lenguage = () => {
     return(

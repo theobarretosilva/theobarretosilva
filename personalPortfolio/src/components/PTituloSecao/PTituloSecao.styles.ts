@@ -8,4 +8,5 @@ export const TituloSecao = styled.h1`
     text-align: center;
     margin: 0 0 0 0;
     padding-top: 1.2rem;
+    padding-bottom: 1rem;
 `;

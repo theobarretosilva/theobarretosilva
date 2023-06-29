@@ -16,4 +16,6 @@ export const PLenguageStyled = styled.p`
     font-size: 1.2vw;
     color: white;
     cursor: pointer;
+    margin-bottom: 0;
+    margin-top: 0.8rem;
 `

@@ -1,0 +1,27 @@
+[
+    {
+        "imgPath": "../../assets/imgs/servicos/python.png",
+        "titulo": "Desenvolvimento Python",
+        "descricao": "Desenvolvo aplicativos diversos que possam usar a interface ou por meio do terminal"
+    },
+    {
+        "imgPath": "../../assets/imgs/servicos/web.png",
+        "titulo": "Desenvolvimento Web",
+        "descricao": "Para desenvolvimento web utilizo HTML, CSS, JS, TS e React"
+    },
+    {
+        "imgPath": "../../assets/imgs/servicos/mobile.png",
+        "titulo": "Desenvolvimento Mobile",
+        "descricao": "Para desenvolvimento mobile utilizo o Android Studio, Java e Firebase como Banco de Dados"
+    },
+    {
+        "imgPath": "../../assets/imgs/servicos/apis.png",
+        "titulo": "Desenvolvimento de API’s",
+        "descricao": "Para o desenvolvimento de API’s utilizo JS, TS, PostgreSQl, MongoDB, NestJS"
+    },
+    {
+        "imgPath": "../../assets/imgs/servicos/database.png",
+        "titulo": "Banco de dados",
+        "descricao": "PostgreSQL, para armazenamento local e Firebase e MongoDB para uso na nuvem"
+    }
+]

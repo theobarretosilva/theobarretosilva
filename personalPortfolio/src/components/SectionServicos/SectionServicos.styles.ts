@@ -14,7 +14,6 @@ export const TituloServicos = styled.h1`
     font-weight: 700;
     text-align: center;
     margin: 0;
-    padding-top: 1.2rem;
 `;
 
 export const SubtituloServicos = styled.h2`
@@ -28,9 +27,9 @@ export const SubtituloServicos = styled.h2`
 `;
 
 export const DivCards = styled(motion.div)`
-    width: 66rem;
+    width: 78%;
     height: 15rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-bottom: 4.4rem;
     overflow: hidden;
     cursor: grab;
