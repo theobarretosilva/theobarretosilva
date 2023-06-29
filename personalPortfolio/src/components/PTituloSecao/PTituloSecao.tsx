@@ -1,10 +1,10 @@
 import { TituloSecao } from "./PTituloSecao.styles"
 import React from "react"
 
-type H1TituloSecaoProps = {
-    conteudo: string,
+type H1TituloSecaoProps = React.HTMLProps<HTMLHeadingElement> & {
+    children: string,
 }
 
-export const H1TituloSecao = ({conteudo}: H1TituloSecaoProps) => {
-    return <TituloSecao>{conteudo}</TituloSecao>
+export const H1TituloSecao = ({children}: H1TituloSecaoProps) => {
+    return <TituloSecao>{children}</TituloSecao>
 }

@@ -1,11 +1,11 @@
-import { H1TituloSecao } from "../PTituloSecao/PTituloSecao"
-import { DivBarraInicio, ImgHabInicio } from "./BarraHabInicio.styles"
+import { H1TituloSecao } from "../../PTituloSecao/PTituloSecao"
+import { DivBarraInicio, ImgHabInicio } from "./Tecnologias.styles"
 import React from "react"
 
-export const BarraHabInicio = () => {
+export const Tecnologias = () => {
     return(
-        <>
-            <H1TituloSecao conteudo="TECNOLOGIAS" />
+        <section id="tecnologias">
+            <H1TituloSecao>TECNOLOGIAS</H1TituloSecao>
             <DivBarraInicio>
                 <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
                 <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
@@ -21,6 +21,6 @@ export const BarraHabInicio = () => {
                 <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" alt="NestJS" />
                 <ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="Aws" />
             </DivBarraInicio>
-        </>
+        </section>
     )
 }

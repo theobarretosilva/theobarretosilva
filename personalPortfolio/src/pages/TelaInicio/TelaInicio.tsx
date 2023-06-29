@@ -1,9 +1,9 @@
-import { BarraHabInicio } from "../../components/BarraHabInicio/BarraHabInicio"
-import { ConteudoInicio } from "../../components/ConteudoInicio/ConteudoInicio"
+import { Tecnologias } from "../../components/sections/Tecnologias/Tecnologias"
+import { SobreMim } from "../../components/sections/SobreMim/SobreMim"
 import { Lenguage } from "../../components/Lenguage/Lenguage"
 import { Navbar } from "../../components/Navbar/Navbar"
 import { Rodape } from "../../components/Rodape/Rodape"
-import { SectionServicos } from "../../components/SectionServicos/SectionServicos"
+import { Servicos } from "../../components/sections/Servicos/Servicos"
 import { SectionInicioStyled } from "./TelaInicio.styled"
 import React from "react"
 
@@ -11,13 +11,13 @@ export const TelaInicio = () => {
     return(
         <>
             <Navbar />
-            <SectionInicioStyled>
+            <SectionInicioStyled id="inicio">
                 <Lenguage />
-                <ConteudoInicio />
+                <SobreMim />
             </SectionInicioStyled>
-            <BarraHabInicio />
+            <Tecnologias />
             <SectionInicioStyled>
-                <SectionServicos />
+                <Servicos />
             </SectionInicioStyled>
             <Rodape />
         </>
