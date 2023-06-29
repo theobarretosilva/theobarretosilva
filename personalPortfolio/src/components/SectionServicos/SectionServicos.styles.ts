@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from 'framer-motion'
 
 export const SectionCentral = styled.section`
     display: flex;
@@ -24,4 +25,18 @@ export const SubtituloServicos = styled.h2`
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     margin: 0;
+`;
+
+export const DivCards = styled(motion.div)`
+    width: 66rem;
+    height: 15rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4.4rem;
+    overflow: hidden;
+    cursor: grab;
+`;
+
+export const InnerDivCards = styled(motion.div)`
+    display: flex;
+    gap: 2rem;
 `;
