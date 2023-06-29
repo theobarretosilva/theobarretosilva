@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const DivGeral = styled.div`
-    width: 20rem;
-    height: 15rem;
+    max-width: 280px;
+    max-height: 240px;
     border-radius: 12px;
     background: #8D818F;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    pointer-events: none;
 `;
 
 export const ImgServico = styled.img`
@@ -32,7 +33,8 @@ export const DescricaoServico = styled.p`
     text-align: center;
     color: #541C6C;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.988rem;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    padding: 0 2vw 2vh 2vw;
 `;

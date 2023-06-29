@@ -28,6 +28,7 @@ export const SubtituloServicos = styled.h2`
 
 export const DivCards = styled(motion.div)`
     width: 78%;
+    max-width: 100%;
     height: 15rem;
     margin-top: 2rem;
     margin-bottom: 4.4rem;
@@ -38,4 +39,5 @@ export const DivCards = styled(motion.div)`
 export const InnerDivCards = styled(motion.div)`
     display: flex;
     gap: 2rem;
+    width: 100%;
 `;

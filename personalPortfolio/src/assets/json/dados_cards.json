@@ -1,27 +1,27 @@
 [
     {
-        "imgPath": "../../assets/imgs/servicos/python.png",
+        "imgPath": "https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/servicos/python.png?raw=true",
         "titulo": "Desenvolvimento Python",
         "descricao": "Desenvolvo aplicativos diversos que possam usar a interface ou por meio do terminal"
     },
     {
-        "imgPath": "../../assets/imgs/servicos/web.png",
+        "imgPath": "https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/servicos/web.png?raw=true",
         "titulo": "Desenvolvimento Web",
         "descricao": "Para desenvolvimento web utilizo HTML, CSS, JS, TS e React"
     },
     {
-        "imgPath": "../../assets/imgs/servicos/mobile.png",
+        "imgPath": "https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/servicos/mobile.png?raw=true",
         "titulo": "Desenvolvimento Mobile",
         "descricao": "Para desenvolvimento mobile utilizo o Android Studio, Java e Firebase como Banco de Dados"
     },
     {
-        "imgPath": "../../assets/imgs/servicos/apis.png",
+        "imgPath": "https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/servicos/apis.png?raw=true",
         "titulo": "Desenvolvimento de API’s",
         "descricao": "Para o desenvolvimento de API’s utilizo JS, TS, PostgreSQl, MongoDB, NestJS"
     },
     {
-        "imgPath": "../../assets/imgs/servicos/database.png",
-        "titulo": "Banco de dados",
-        "descricao": "PostgreSQL, para armazenamento local e Firebase e MongoDB para uso na nuvem"
+        "imgPath": "https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/servicos/database.png?raw=true",
+        "titulo": "Bancos de dados",
+        "descricao": "PostgreSQL para armazenamento local e Firebase e MongoDB para uso online"
     }
 ]
