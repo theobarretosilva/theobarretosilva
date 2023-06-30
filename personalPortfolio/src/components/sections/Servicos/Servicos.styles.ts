@@ -24,6 +24,10 @@ export const SubtituloServicos = styled.h2`
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     margin: 0;
+
+    @media (max-width: 490px) {
+        max-width: 82vw;
+    }
 `;
 
 export const DivCards = styled(motion.div)`
