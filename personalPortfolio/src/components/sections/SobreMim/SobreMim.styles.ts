@@ -42,7 +42,7 @@ export const TextCelular = styled.p`
 
     @media (max-width: 490px) {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: 'Arbutus Slab', sans-serif;
         color: white;
         max-width: 82vw;
@@ -55,8 +55,8 @@ export const ImgTheoCelular = styled.img`
     display: none;
 
     @media (max-width: 490px) {
-        width: 34vw;
-        height: 34vw;
+        width: 50vw;
+        height: 50vw;
         padding-bottom: 1.5vw;
         display: grid;
     }
