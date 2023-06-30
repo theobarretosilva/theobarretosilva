@@ -55,8 +55,8 @@ export const ImgTheoCelular = styled.img`
     display: none;
 
     @media (max-width: 490px) {
-        width: 65vw;
-        height: 65vw;
+        width: 70vw;
+        height: 70vw;
         display: grid;
     }
 `;
