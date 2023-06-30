@@ -28,21 +28,15 @@
         position: absolute;
         top: 0;
         right: 0;
-        bottom: 0;
-        left: 0;
-        text-align: end;
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
     }
 }
 
 .menu.menuClose {
     display: none;
-
-    @media (max-width: 450px) {
-        display: none;
-        width: 0px;
-    }
-    
+    width: 0px;
 }
 
 .innerIcon {
@@ -50,9 +44,9 @@
 
     @media (max-width: 450px) {
        margin: 1.7vh 7.7vw;
-       display: grid;
+       display: flex;
        width: 2.5rem;
-        height: 2.5rem;
+       height: 2.5rem;
     }
     
 }
@@ -61,8 +55,9 @@
     display: none;
 
     @media (max-width: 450px) {
-       text-align: start;
        display: grid;
+       text-align: start;
+       width: 100vw;
     }
     
 }
