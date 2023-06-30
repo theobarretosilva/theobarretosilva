@@ -15,7 +15,7 @@ export const HeaderStyled = styled.header`
         width: 100vw;
         height: 4vh;
         justify-content: space-around;
-        gap: 11vw;
+        gap: 50px;
     }
 
     @media (min-width: 1350px) {
