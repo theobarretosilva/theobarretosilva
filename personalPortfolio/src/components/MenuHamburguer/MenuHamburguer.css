@@ -1,7 +1,7 @@
 .divGeral {
     display: none;
 
-    @media (max-width: 450px) {
+    @media (max-width: 490px) {
         display: grid;
     }
 }
@@ -19,7 +19,7 @@
 .menu.menuOpen {
     display: none;
 
-    @media (max-width: 450px) {
+    @media (max-width: 490px) {
         width: 100vw;
         max-width: 100%;
         height: 20vh;
@@ -42,7 +42,7 @@
 .innerIcon {
     display: none;
 
-    @media (max-width: 450px) {
+    @media (max-width: 490px) {
        margin: 1.7vh 7.7vw;
        display: flex;
        width: 2.5rem;
@@ -54,7 +54,7 @@
 .list {
     display: none;
 
-    @media (max-width: 450px) {
+    @media (max-width: 490px) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -65,7 +65,7 @@
 .listItems {
     display: none;
 
-    @media (max-width: 450px) {
+    @media (max-width: 490px) {
        color: white;
        display: grid;
     }
