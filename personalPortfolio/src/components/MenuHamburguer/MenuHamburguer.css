@@ -23,7 +23,7 @@
         width: 100vw;
         max-width: 100%;
         height: 20vh;
-        background: black;
+        background: #1C0028;
         box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
         position: absolute;
         top: 0;
@@ -37,7 +37,7 @@
         width: 100vw;
         max-width: 100%;
         height: 20vh;
-        background: black;
+        background: #1C0028;
         box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
         position: absolute;
         top: 0;
@@ -84,7 +84,7 @@
        display: grid;
        list-style: none;
        font-family: 'Inter', sans-serif;
-       font-size: 1rem;
+       font-size: 0.9rem;
     }
     
 }
