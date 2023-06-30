@@ -88,9 +88,6 @@
        text-align: left;
     }
 
-    @media (device-width: 390px) {
-        color: red;
-    }
 }
 
 .link {
@@ -103,7 +100,7 @@
 
 .linha {
     @media (max-width: 394px) {
-        width: 50vw;
+        width: 30vw;
         margin-bottom: 3vh;
     }
     
