@@ -5,6 +5,12 @@ export const DivConteudoInicioStyled = styled.div`
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 490px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const TextSobreInicioStyled = styled.p`
