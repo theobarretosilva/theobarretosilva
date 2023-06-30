@@ -11,8 +11,8 @@
 
     @media (max-width: 490px) {
         display: grid;
-        width: 1vw;
-        height: 2vh;
+        width: 45px;
+        height: 45px;
     }
 }
 
