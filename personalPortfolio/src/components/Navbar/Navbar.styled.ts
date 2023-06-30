@@ -5,9 +5,21 @@ export const HeaderStyled = styled.header`
     top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 1vw 3vw;
+    justify-content: center;
+    gap: 13vw;
+    padding: 2vh 0;
     align-items: center;
+    width: 100%;
+
+    @media (max-width: 450px) {
+        width: 100vw;
+        height: 4vh;
+        justify-content: space-around;
+    }
+
+    @media (min-width: 1350px) {
+        width: 100%;
+    }
 `
 
 export const NomeTheoStyled = styled.p`
@@ -15,12 +27,24 @@ export const NomeTheoStyled = styled.p`
     font-size: 3vw;
     color: white;
     margin: 0;
+
+    @media (max-width: 450px) {
+        font-size: 2.5em;
+    }
+
+    @media (min-width: 1350px) {
+        font-size: 3vw;
+    }
 `
 
 export const DivNavStyled = styled.div`
     display: flex;
     flex-direction: row;
     gap: 2.2vw;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `
 
 export const PNavStyled = styled.p`
@@ -42,4 +66,8 @@ export const BtnBaixarCV = styled.button`
     font-family: Inter;
     font-weight: 500;
     cursor: pointer;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `;

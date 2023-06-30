@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import * as S from "./Navbar.styled"
 import React, { useState } from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { MenuHamburguer } from "../MenuHamburguer/MenuHamburguer";
 
 const CV_THEO = "https://github.com/theobarretosilva/theobarretosilva/raw/main/personalPortfolio/src/assets/pdfs/CV_TheoSilva.pdf"
 
@@ -25,6 +26,7 @@ export const Navbar = () => {
     return(
         <S.HeaderStyled>
             <S.NomeTheoStyled>Théo Silva</S.NomeTheoStyled>
+            <MenuHamburguer />
             <S.DivNavStyled>
                 <ScrollLink
                     to="inicio"
