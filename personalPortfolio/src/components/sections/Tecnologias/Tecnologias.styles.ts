@@ -40,6 +40,10 @@ export const Carousel = styled.div`
     ::-webkit-scrollbar {
         display: none;
     }
+
+    @media (max-width: 490px) {
+        width: 80vw;
+    }
 `
 
 export const ImgHabInicio = styled.img`
