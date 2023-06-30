@@ -1,7 +1,7 @@
 .divGeral {
     display: none;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         display: grid;
     }
 }
@@ -9,7 +9,7 @@
 .icon {
     display: none;
 
-    @media (max-width: 400px) {
+    @media (max-width: 490px) {
         display: grid;
         width: 45px;
         height: 45px;
@@ -56,7 +56,7 @@
 .innerIcon {
     display: none;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
        margin: 1.7vh 7.7vw;
        display: flex;
        width: 2.5rem;
@@ -68,7 +68,7 @@
 .list {
     display: none;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -79,7 +79,7 @@
 .listItems {
     display: none;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
        color: white;
        display: grid;
     }
