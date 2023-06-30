@@ -55,8 +55,8 @@ export const ImgTheoCelular = styled.img`
     display: none;
 
     @media (max-width: 490px) {
-        width: 50vw;
-        height: 50vw;
+        width: 65vw;
+        height: 65vw;
         padding-bottom: 1.5vw;
         display: grid;
     }
