@@ -103,7 +103,7 @@
 
 .linha {
     @media (max-width: 394px) {
-        width: 35vw;
+        width: 50%;
         margin-bottom: 10vh;
     }
     
