@@ -67,7 +67,7 @@
 .list {
     display: none;
 
-    @media (max-width: 3940px) {
+    @media (max-width: 394px) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -85,6 +85,7 @@
        font-family: 'Inter', sans-serif;
        font-size: 1rem;
        margin: 0;
+       text-align: left;
     }
 }
 
