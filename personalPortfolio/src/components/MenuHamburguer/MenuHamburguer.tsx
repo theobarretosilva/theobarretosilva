@@ -14,14 +14,14 @@ export const MenuHamburguer = () => {
                 <img className="innerIcon" src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/close_menu.png?raw=true" alt="Icone menu" onClick={ToggleMode} />
                 <div className="list">
                     <ul className="listItems">
-                        <li>Início</li>
-                        <hr/>
-                        <li>Sobre mim</li>
-                        <hr/>
-                        <li>Serviços</li>
-                        <hr/>
-                        <li>Projetos</li>
-                        <hr/>
+                        <li className="link">Início</li>
+                        <hr className="linha"/>
+                        <li className="link">Sobre mim</li>
+                        <hr className="linha"/>
+                        <li className="link">Serviços</li>
+                        <hr className="linha"/>
+                        <li className="link">Projetos</li>
+                        <hr className="linha"/>
                     </ul>
                 </div>
             </div>
