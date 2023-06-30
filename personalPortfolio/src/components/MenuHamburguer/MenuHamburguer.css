@@ -11,6 +11,8 @@
 
     @media (max-width: 450px) {
         display: grid;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
@@ -49,6 +51,8 @@
     @media (max-width: 450px) {
        margin: 1.7vh 7.7vw;
        display: grid;
+       width: 2.5rem;
+        height: 2.5rem;
     }
     
 }
