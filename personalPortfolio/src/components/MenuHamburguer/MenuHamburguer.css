@@ -104,7 +104,7 @@
 .linha {
     @media (max-width: 394px) {
         width: 50vw;
-        margin-bottom: 3vh;
+        margin-bottom: 10vh;
     }
     
 }
