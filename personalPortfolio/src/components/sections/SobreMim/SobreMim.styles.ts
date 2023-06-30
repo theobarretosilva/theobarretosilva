@@ -46,7 +46,6 @@ export const TextCelular = styled.p`
         font-family: 'Arbutus Slab', sans-serif;
         color: white;
         max-width: 82vw;
-        padding-bottom: 2vh;
         display: grid;
     }
 `;
@@ -57,7 +56,6 @@ export const ImgTheoCelular = styled.img`
     @media (max-width: 490px) {
         width: 65vw;
         height: 65vw;
-        padding-bottom: 2vw;
         display: grid;
     }
 `;
