@@ -29,6 +29,10 @@ export const ImgTheoStyled = styled.img`
     width: 27vw;
     height: 27vw;
     padding-bottom: 1.5vw;
+
+    @media (max-width: 490px) {
+        display: none;
+    }
 `
 
 /* ELEMENTOS PARA CELULAR */
@@ -41,9 +45,8 @@ export const TextCelular = styled.p`
         font-size: 0.9rem;
         font-family: 'Arbutus Slab', sans-serif;
         color: white;
-        max-width: 100vw;
+        max-width: 82vw;
         padding-bottom: 4vh;
-        display: grid;
     }
 `;
 
@@ -53,5 +56,7 @@ export const ImgTheoCelular = styled.img`
     @media (max-width: 490px) {
         width: 27vw;
         height: 27vw;
+        padding-bottom: 1.5vw;
+        display: grid;
     }
 `;
