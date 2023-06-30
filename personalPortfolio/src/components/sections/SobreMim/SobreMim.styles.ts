@@ -43,6 +43,7 @@ export const TextCelular = styled.p`
         color: white;
         max-width: 100vw;
         padding-bottom: 4vh;
+        display: grid;
     }
 `;
 
