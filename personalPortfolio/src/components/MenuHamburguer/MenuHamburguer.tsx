@@ -15,9 +15,13 @@ export const MenuHamburguer = () => {
                 <div className="list">
                     <ul className="listItems">
                         <li>Início</li>
+                        <div className="linha"></div>
                         <li>Sobre mim</li>
+                        <div className="linha"></div>
                         <li>Serviços</li>
+                        <div className="linha"></div>
                         <li>Projetos</li>
+                        <div className="linha"></div>
                     </ul>
                 </div>
             </div>
