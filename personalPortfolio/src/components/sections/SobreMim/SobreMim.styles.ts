@@ -21,8 +21,7 @@ export const TextSobreInicioStyled = styled.p`
     padding-bottom: 4vw;
 
     @media (max-width: 490px) {
-        text-align: center;
-        font-size: 0.8rem;
+        display: none;
     }
 `
 
@@ -31,3 +30,27 @@ export const ImgTheoStyled = styled.img`
     height: 27vw;
     padding-bottom: 1.5vw;
 `
+
+/* ELEMENTOS PARA CELULAR */
+
+export const TextCelular = styled.p`
+    display: none;
+
+    @media (max-width: 490px) {
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: 'Arbutus Slab', sans-serif;
+        color: white;
+        max-width: 100vw;
+        padding-bottom: 4vh;
+    }
+`;
+
+export const ImgTheoCelular = styled.img`
+    display: none;
+
+    @media (max-width: 490px) {
+        width: 27vw;
+        height: 27vw;
+    }
+`;
