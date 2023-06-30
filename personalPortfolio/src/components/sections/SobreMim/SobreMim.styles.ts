@@ -19,6 +19,11 @@ export const TextSobreInicioStyled = styled.p`
     color: white;
     max-width: 44vw;
     padding-bottom: 4vw;
+
+    @media (max-width: 490px) {
+        text-align: center;
+        font-size: 0.8rem;
+    }
 `
 
 export const ImgTheoStyled = styled.img`

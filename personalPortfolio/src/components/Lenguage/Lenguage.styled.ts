@@ -8,6 +8,10 @@ export const DivLenguageStyled = styled.div`
     justify-content: flex-end;
     margin-right: 2vw;
     padding-top: 0.5vw;
+
+    @media (max-width: 490px) {
+        display: none;
+    }
 `
 
 export const PLenguageStyled = styled.p`
