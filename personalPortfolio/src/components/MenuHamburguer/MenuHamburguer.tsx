@@ -9,7 +9,7 @@ export const MenuHamburguer = () => {
 
     return(
         <div className="divGeral">
-            <img className="icon" src="../../src/assets/svgs/menu.svg" alt="Icone menu" onClick={ToggleMode} />
+            <img className="icon" src="../../src/assets/imgs/menu.png" alt="Icone menu" onClick={ToggleMode} />
             <div className={active ? "menu menuOpen" : "menu menuClose" }>
                 <img className="innerIcon" src="../../src/assets/svgs/close_menu.svg" alt="Icone menu" onClick={ToggleMode} />
                 <div className="list">

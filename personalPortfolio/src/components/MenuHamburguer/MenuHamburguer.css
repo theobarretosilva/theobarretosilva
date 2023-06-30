@@ -1,17 +1,12 @@
 .divGeral {
-    display: none;
 
-    @media (max-width: 450px) {
         display: grid;
-    }
 }
 
 .icon {
-    display: none;
 
-    @media (max-width: 450px) {
         display: grid;
-    }
+    
 }
 
 .menu.menuOpen {
