@@ -19,7 +19,7 @@ export const Tecnologias = () => {
         <S.SectionTec id="tecnologias">
             <H1TituloSecao>TECNOLOGIAS</H1TituloSecao>
             <S.DivTecs>
-                <S.BtnNext onClick={handleLeftClick}><img src="../../../src/assets/svgs/arrow-right.svg" /></S.BtnNext>
+                <S.BtnNext onClick={handleLeftClick}><img style={{ width: '2.5rem'}} src="../../../src/assets/imgs/arrow_left.png" /></S.BtnNext>
                 <S.Carousel ref={carousel}>
                     <S.ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
                     <S.ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
@@ -40,7 +40,7 @@ export const Tecnologias = () => {
                     <S.ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" />
                     <S.ImgHabInicio src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Slack" />
                 </S.Carousel>
-                <S.BtnNext onClick={handleRightClick} style={{ rotate: '180deg' }}><img src="../../../src/assets/svgs/arrow-right.svg" /></S.BtnNext>
+                <S.BtnNext onClick={handleRightClick} style={{ rotate: '180deg' }}><img style={{ width: '2.5rem'}} src="../../../src/assets/imgs/arrow_left.png" /></S.BtnNext>
             </S.DivTecs>
         </S.SectionTec>
     )
