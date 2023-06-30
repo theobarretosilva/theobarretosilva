@@ -87,9 +87,24 @@
        margin: 0;
        text-align: left;
     }
+
+    @media (device-width: 390px) {
+        color: red;
+    }
+}
+
+.link {
+    @media (max-width: 394px) {
+       margin: 0;
+       padding: 0; 
+    }
+    
 }
 
 .linha {
-    width: 50vw;
-    margin-bottom: 3vh;
+    @media (max-width: 394px) {
+        width: 50vw;
+        margin-bottom: 3vh;
+    }
+    
 }
