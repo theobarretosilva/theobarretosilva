@@ -47,6 +47,7 @@ export const TextCelular = styled.p`
         color: white;
         max-width: 82vw;
         display: grid;
+        margin: 0;
     }
 `;
 
