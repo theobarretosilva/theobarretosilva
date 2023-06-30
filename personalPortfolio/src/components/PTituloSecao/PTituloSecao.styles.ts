@@ -10,11 +10,7 @@ export const TituloSecao = styled.h1`
     padding-top: 1.2rem;
     padding-bottom: 1rem;
 
-    @media (max-width: 400px) {
-        color: red;
-    }
-
     @media (max-width: 490px) {
-        color: yellow;
+        font-size: 1.25rem;
     }
 `;
