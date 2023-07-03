@@ -28,7 +28,6 @@ export const MenuHamburguer = () => {
                         <div className="linha"/>
                     </ul>
                 </div>
-                <Lenguage />
             </div>
         </div>
     )

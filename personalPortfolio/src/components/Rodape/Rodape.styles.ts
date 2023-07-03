@@ -23,6 +23,10 @@ export const PCopyrightStyled = styled.p`
     font-weight: 300;
     color: white;
     font-size: 1.2vw;
+
+    @media (max-width: 490px) {
+        font-size: 2vw;
+    }
 `
 
 export const DivLinksRodapeStyled = styled.div`
@@ -34,4 +38,9 @@ export const DivLinksRodapeStyled = styled.div`
 export const ImgLinksRodapeStyled = styled.img`
     width: 3.1vw;
     height: 3.1vw;
+
+    @media (max-width: 490px) {
+        width: 8vw;
+        height: 8vw;
+    }
 `
