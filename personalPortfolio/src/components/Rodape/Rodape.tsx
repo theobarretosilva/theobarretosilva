@@ -1,4 +1,5 @@
 import { DivLinksRodapeStyled, FooterStyled, ImgLinksRodapeStyled, LinhaRodapeStyled, PCopyrightStyled } from "./Rodape.styles"
+import React from "react"
 
 export const Rodape = () => {
     return(

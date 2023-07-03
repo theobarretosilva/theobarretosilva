@@ -10,8 +10,12 @@ export const FooterStyled = styled.footer`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2vw 4vw;
     align-items: center;
+    padding: 2vw 4vw;
+
+    @media (max-width: 490px) {
+        flex-direction: column;
+    }
 `
 
 export const PCopyrightStyled = styled.p`

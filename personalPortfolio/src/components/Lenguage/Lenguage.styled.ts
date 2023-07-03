@@ -12,7 +12,7 @@ export const DivLenguageStyled = styled.div`
     @media (max-width: 490px) {
         gap: 4vw;
         margin-bottom: 1vh;
-        margin-right: 8vw;
+        margin-right: 8.2vw;
     }
 `
 
