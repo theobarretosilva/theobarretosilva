@@ -5,10 +5,6 @@ export const SectionTec = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    @media (max-width: 490px) {
-        margin-top: 1vh;
-    }
 `;
 
 export const DivTecs = styled.div`
