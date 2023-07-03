@@ -15,16 +15,16 @@ export const MenuHamburguer = () => {
                 <div className="list">
                     <ul className="listItems">
                         <li className="link">Início</li>
-                        <hr className="linha"/>
+                        <div className="linha"/>
                         <br />
                         <li className="link">Sobre mim</li>
-                        <hr className="linha"/>
+                        <div className="linha"/>
                         <br />
                         <li className="link">Serviços</li>
-                        <hr className="linha"/>
+                        <div className="linha"/>
                         <br />
                         <li className="link">Projetos</li>
-                        <hr className="linha"/>
+                        <div className="linha"/>
                     </ul>
                 </div>
             </div>
