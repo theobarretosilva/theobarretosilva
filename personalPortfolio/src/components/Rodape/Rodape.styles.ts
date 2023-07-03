@@ -15,7 +15,8 @@ export const FooterStyled = styled.footer`
 
     @media (max-width: 490px) {
         flex-direction: column;
-        gap: 5vh;
+        gap: 4vh;
+        justify-content: space-around;
     }
 `
 
@@ -36,7 +37,7 @@ export const DivLinksRodapeStyled = styled.div`
     gap: 3vw;
 
     @media (max-width: 490px) {
-        gap: 6vw;
+        gap: 5vw;
     }
 `
 
