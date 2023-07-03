@@ -10,16 +10,22 @@ export const DivLenguageStyled = styled.div`
     padding-top: 0.5vw;
 
     @media (max-width: 490px) {
-        display: none;
+        gap: 4vw;
+        margin-bottom: 1vh;
+        margin-right: 7.1vw;
     }
 `
 
 export const PLenguageStyled = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 1.2vw;
+    font-size: 1.1rem;
     color: white;
     cursor: pointer;
     margin-bottom: 0;
     margin-top: 0.8rem;
+
+    @media (max-width: 490px) {
+        font-size: 1rem;
+    }
 `
