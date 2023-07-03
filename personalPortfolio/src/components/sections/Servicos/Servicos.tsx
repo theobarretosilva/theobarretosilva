@@ -8,9 +8,6 @@ import data from '../../../assets/json/dados_cards.json'
 export const Servicos = () => {
     const carousel = useRef();
     const [width, setWidth] = useState(0)
-    useEffect(() => {
-        setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
-    }, [])
 
     const handleLeftClick = (e) => {
         e.preventDefault();

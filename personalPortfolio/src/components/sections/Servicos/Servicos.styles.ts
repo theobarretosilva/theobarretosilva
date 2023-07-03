@@ -66,6 +66,7 @@ export const DivCards = styled(motion.div)`
     margin-bottom: 4.4rem;
     overflow: hidden;
     cursor: grab;
+    display: grid;
 
     @media (max-width: 490px) {
         width: 84%;
