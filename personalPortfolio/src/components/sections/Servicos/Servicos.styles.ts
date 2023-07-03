@@ -32,7 +32,7 @@ export const SubtituloServicos = styled.h2`
 
 export const DivServicosCards = styled.div`
     margin-top: 2rem;
-    margin-bottom: 4.4rem;
+    margin-bottom: 3rem;
     display: flex;
     align-items: center;
 `;
