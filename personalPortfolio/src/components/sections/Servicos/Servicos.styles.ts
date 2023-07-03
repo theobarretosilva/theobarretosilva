@@ -38,6 +38,10 @@ export const DivCards = styled(motion.div)`
     margin-bottom: 4.4rem;
     overflow: hidden;
     cursor: grab;
+
+    @media (max-width: 490px) {
+        width: 80%;
+    }
 `;
 
 export const InnerDivCards = styled(motion.div)`
