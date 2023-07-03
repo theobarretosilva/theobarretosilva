@@ -28,21 +28,14 @@ export const Servicos = () => {
                 <S.BtnNext onClick={handleLeftClick}>
                     <img style={{ width: '2.5rem'}} src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/arrow_left.png?raw=true" />
                 </S.BtnNext>
-                <S.DivCards ref={carousel} whileTap={{ cursor: "grabbing" }}>
-                    <S.InnerDivCards 
-                        drag="x"
-                        dragConstraints={{ right: 0, left: -width}}
-                        initial={{ x: 100 }}
-                        animate={{ x: 0 }}
-                        transition={{ duration: 0.5 }}>
-                            {data.map((value, key) => (
-                                <CardServico
-                                    img={value.imgPath}
-                                    titulo={value.titulo}
-                                    descricao={value.descricao}
-                                    key={key} />
-                            ))}
-                    </S.InnerDivCards>
+                <S.DivCards ref={carousel} >
+                    {data.map((value, key) => (
+                        <CardServico
+                            img={value.imgPath}
+                            titulo={value.titulo}
+                            descricao={value.descricao}
+                            key={key} />
+                    ))}
                 </S.DivCards>
                 <S.BtnNext onClick={handleRightClick} style={{ rotate: '180deg' }}>
                     <img style={{ width: '2.5rem'}} src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/arrow_left.png?raw=true" />
