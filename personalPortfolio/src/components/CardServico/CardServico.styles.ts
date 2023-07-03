@@ -21,6 +21,11 @@ export const ImgServico = styled.img`
     width: 4.875rem;
     height: 4.875rem;
     margin-top: 1rem;
+
+    @media (max-width: 490px) {
+        width: 4rem;
+        height: 4rem;
+    }
 `;
 
 export const TituloServico = styled.h1`
@@ -29,6 +34,10 @@ export const TituloServico = styled.h1`
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     margin-bottom: 0;
+
+    @media (max-width: 490px) {
+        font-size: 1.1rem;
+    }
 `;
 
 export const DescricaoServico = styled.p`
@@ -42,4 +51,8 @@ export const DescricaoServico = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     padding: 0 2vw 2vh 2vw;
+
+    @media (max-width: 490px) {
+        font-size: 1rem;
+    }
 `;
