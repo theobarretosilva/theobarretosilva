@@ -53,7 +53,7 @@ export const DivCards = styled(motion.div)`
     flex-direction: row;
     align-items: center;
     gap: 3vw;
-    width: 65rem;
+    width: 70rem;
     overflow-x: auto;
     scroll-behavior: smooth;
     border-radius: 9px;
@@ -66,7 +66,7 @@ export const DivCards = styled(motion.div)`
     }
 
     @media (max-width: 490px) {
-        width: 70vw;
+        width: 60vw;
         gap: 5vw;
         padding: 3vh 4vw 3vh 4vw;
     }
