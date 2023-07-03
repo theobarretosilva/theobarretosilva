@@ -70,6 +70,7 @@ export const DivCards = styled(motion.div)`
 
     @media (max-width: 490px) {
         width: 84%;
+        display: grid;
     }
 `;
 
