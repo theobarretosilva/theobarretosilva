@@ -15,6 +15,7 @@ export const FooterStyled = styled.footer`
 
     @media (max-width: 490px) {
         flex-direction: column;
+        gap: 5vh;
     }
 `
 
@@ -25,7 +26,7 @@ export const PCopyrightStyled = styled.p`
     font-size: 1.2vw;
 
     @media (max-width: 490px) {
-        font-size: 2vw;
+        font-size: 6vw;
     }
 `
 
@@ -33,6 +34,10 @@ export const DivLinksRodapeStyled = styled.div`
     display: flex;
     flex-direction: row;
     gap: 3vw;
+
+    @media (max-width: 490px) {
+        gap: 5vw;
+    }
 `
 
 export const ImgLinksRodapeStyled = styled.img`
@@ -40,7 +45,7 @@ export const ImgLinksRodapeStyled = styled.img`
     height: 3.1vw;
 
     @media (max-width: 490px) {
-        width: 8vw;
-        height: 8vw;
+        width: 9vw;
+        height: 9vw;
     }
 `
