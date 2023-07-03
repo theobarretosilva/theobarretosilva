@@ -103,9 +103,9 @@
 
 .linha {
     @media (max-width: 490px) {
-        width: 65vw;
+        width: 66vw;
         height: 1px;
-        margin-bottom: 0.7vh;
+        margin-bottom: 0.6vh;
         background-color: white;
     }
     

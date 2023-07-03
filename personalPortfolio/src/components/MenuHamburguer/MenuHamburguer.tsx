@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import './MenuHamburguer.css'
+import { Lenguage } from '../Lenguage/Lenguage'
 
 export const MenuHamburguer = () => {
     const [active, setMode] = useState(false);
@@ -27,6 +28,7 @@ export const MenuHamburguer = () => {
                         <div className="linha"/>
                     </ul>
                 </div>
+                <Lenguage />
             </div>
         </div>
     )
