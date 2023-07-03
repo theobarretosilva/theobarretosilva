@@ -26,7 +26,7 @@ export const PCopyrightStyled = styled.p`
     font-size: 1.2vw;
 
     @media (max-width: 490px) {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 `
 
@@ -36,7 +36,7 @@ export const DivLinksRodapeStyled = styled.div`
     gap: 3vw;
 
     @media (max-width: 490px) {
-        gap: 5vw;
+        gap: 6vw;
     }
 `
 
@@ -45,7 +45,7 @@ export const ImgLinksRodapeStyled = styled.img`
     height: 3.1vw;
 
     @media (max-width: 490px) {
-        width: 9vw;
-        height: 9vw;
+        width: 10vw;
+        height: 10vw;
     }
 `
