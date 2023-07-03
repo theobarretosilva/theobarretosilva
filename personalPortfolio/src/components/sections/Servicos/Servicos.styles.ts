@@ -40,7 +40,7 @@ export const DivCards = styled(motion.div)`
     cursor: grab;
 
     @media (max-width: 490px) {
-        width: 80%;
+        width: 84%;
     }
 `;
 
