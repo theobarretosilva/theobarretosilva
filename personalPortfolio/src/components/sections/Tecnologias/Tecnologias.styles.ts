@@ -51,7 +51,7 @@ export const ImgHabInicio = styled.img`
     height: 4vw;
 
     @media (max-width: 490px) {
-        width: 8vw;
-        height: 8vw;
+        width: 12vw;
+        height: 12vw;
     }
 `
