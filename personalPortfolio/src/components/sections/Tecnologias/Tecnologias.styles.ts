@@ -43,7 +43,7 @@ export const Carousel = styled.div`
 
     @media (max-width: 490px) {
         width: 70vw;
-        gap: 8vw;
+        gap: 10vw;
     }
 `
 
@@ -52,7 +52,7 @@ export const ImgHabInicio = styled.img`
     height: 4vw;
 
     @media (max-width: 490px) {
-        width: 14vw;
-        height: 14vw;
+        width: 16vw;
+        height: 16vw;
     }
 `
