@@ -30,6 +30,35 @@ export const SubtituloServicos = styled.h2`
     }
 `;
 
+export const DivServicosCards = styled.div`
+    display: none;
+
+    @media (max-width: 490px) {
+        margin-top: 2rem;
+        margin-bottom: 4.4rem;
+        display: flex;
+        align-items: center;
+        display: grid;
+    }
+`;
+
+export const BtnNext = styled.button`
+    display: none;
+
+    @media (max-width: 490px) {
+        border: none;
+        width: 2.5rem;
+        height: 2.5rem;
+        z-index: 1;
+        background: none;
+        cursor: pointer;
+        padding-bottom: 0;
+        padding-top: 0;
+        display: grid;
+    }
+    
+`;
+
 export const DivCards = styled(motion.div)`
     width: 78%;
     max-width: 100%;

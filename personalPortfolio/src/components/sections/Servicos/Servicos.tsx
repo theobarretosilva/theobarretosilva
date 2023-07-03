@@ -12,27 +12,45 @@ export const Servicos = () => {
         setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
     }, [])
 
+    const handleLeftClick = (e) => {
+        e.preventDefault();
+        carousel.current.scrollLeft -= carousel.current?.offsetWidth
+    }
+
+    const handleRightClick = (e) => {
+        e.preventDefault();
+        carousel.current.scrollLeft += carousel.current.offsetWidth;
+    }
+
     return(
         <S.SectionCentral id="servicos">
             <H1TituloSecao>SERVIÇOS</H1TituloSecao>
             <S.TituloServicos>Serviço especializado! Vamos dar uma olhada</S.TituloServicos>
             <S.SubtituloServicos>Como desenvolvedor de sistemas, eu ofereço uma variedade de serviços para atender às necessidades tecnológicas dos meus clientes. Com meu conhecimento em diversas linguagens de programação e plataformas, sou capaz de criar soluções personalizadas e eficientes.</S.SubtituloServicos>
-            <S.DivCards ref={carousel} whileTap={{ cursor: "grabbing" }}>
-                <S.InnerDivCards 
-                    drag="x"
-                    dragConstraints={{ right: 0, left: -width}}
-                    initial={{ x: 100 }}
-                    animate={{ x: 0 }}
-                    transition={{ duration: 0.5 }}>
-                        {data.map((value, key) => (
-                            <CardServico
-                                img={value.imgPath}
-                                titulo={value.titulo}
-                                descricao={value.descricao}
-                                key={key} />
-                        ))}
-                </S.InnerDivCards>
-            </S.DivCards>
+            <S.DivServicosCards>
+                <S.BtnNext onClick={handleLeftClick}>
+                    <img style={{ width: '2.5rem'}} src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/arrow_left.png?raw=true" />
+                </S.BtnNext>
+                <S.DivCards ref={carousel} whileTap={{ cursor: "grabbing" }}>
+                    <S.InnerDivCards 
+                        drag="x"
+                        dragConstraints={{ right: 0, left: -width}}
+                        initial={{ x: 100 }}
+                        animate={{ x: 0 }}
+                        transition={{ duration: 0.5 }}>
+                            {data.map((value, key) => (
+                                <CardServico
+                                    img={value.imgPath}
+                                    titulo={value.titulo}
+                                    descricao={value.descricao}
+                                    key={key} />
+                            ))}
+                    </S.InnerDivCards>
+                </S.DivCards>
+                <S.BtnNext onClick={handleRightClick} style={{ rotate: '180deg' }}>
+                    <img style={{ width: '2.5rem'}} src="https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/arrow_left.png?raw=true" />
+                </S.BtnNext>
+            </S.DivServicosCards>
         </S.SectionCentral>
     )
 }
