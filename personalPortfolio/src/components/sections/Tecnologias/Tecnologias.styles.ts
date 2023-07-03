@@ -42,11 +42,16 @@ export const Carousel = styled.div`
     }
 
     @media (max-width: 490px) {
-        width: 80vw;
+        width: 70vw;
     }
 `
 
 export const ImgHabInicio = styled.img`
     width: 4vw;
     height: 4vw;
+
+    @media (max-width: 490px) {
+        width: 8vw;
+        height: 8vw;
+    }
 `
