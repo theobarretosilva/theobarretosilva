@@ -38,7 +38,6 @@ export const DivServicosCards = styled.div`
         margin-bottom: 4.4rem;
         display: flex;
         align-items: center;
-        display: grid;
     }
 `;
 
