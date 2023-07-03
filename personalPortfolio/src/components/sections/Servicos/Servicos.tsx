@@ -6,8 +6,7 @@ import { useState, useEffect, useRef } from "react"
 import data from '../../../assets/json/dados_cards.json'
 
 export const Servicos = () => {
-    const carousel = useRef();
-    const [width, setWidth] = useState(0)
+    const carousel = useRef(null);
 
     const handleLeftClick = (e) => {
         e.preventDefault();
