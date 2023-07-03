@@ -15,7 +15,7 @@ export const FooterStyled = styled.footer`
 
     @media (max-width: 490px) {
         flex-direction: column;
-        gap: 4vh;
+        gap: 3vh;
         justify-content: space-around;
     }
 `
