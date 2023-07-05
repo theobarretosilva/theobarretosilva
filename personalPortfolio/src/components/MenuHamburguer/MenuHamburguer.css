@@ -33,7 +33,7 @@
         align-items: end;
     }
 
-    @media (max-width: 26em) {
+    @media (max-width: 30em) {
         width: 100vw;
         max-width: 100%;
         height: 30vh;
@@ -56,7 +56,7 @@
 .innerIcon {
     display: none;
 
-    @media (max-width: 26em) {
+    @media (max-width: 30em) {
        margin: 1.7vh 7.7vw 0 7.7vw;
        display: flex;
        width: 2.5rem;
@@ -67,7 +67,7 @@
 .list {
     display: none;
 
-    @media (max-width: 26em) {
+    @media (max-width: 30em) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -78,7 +78,7 @@
 .listItems {
     display: none;
 
-    @media (max-width: 26em) {
+    @media (max-width: 30em) {
        display: grid;
        list-style: none;
        margin: 0;
