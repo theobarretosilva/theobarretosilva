@@ -67,7 +67,7 @@
 .list {
     display: none;
 
-    @media (max-width: 394px) {
+    @media (max-width: 21em) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -78,7 +78,7 @@
 .listItems {
     display: none;
 
-    @media (max-width: 394px) {
+    @media (max-width: 21em) {
        color: white;
        display: grid;
        list-style: none;
@@ -94,7 +94,7 @@
 }
 
 .link {
-    @media (max-width: 394px) {
+    @media (max-width: 21em) {
        margin: 0;
        padding: 0; 
     }
@@ -102,7 +102,7 @@
 }
 
 .linha {
-    @media (max-width: 490px) {
+    @media (max-width: 26em) {
         width: 66vw;
         height: 1px;
         margin-bottom: 0.6vh;
