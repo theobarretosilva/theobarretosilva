@@ -16,7 +16,6 @@ export const HeaderStyled = styled.header`
         height: 4vh;
         justify-content: space-around;
         gap: 50px;
-        background-color: #160020;
     }
 `
 
