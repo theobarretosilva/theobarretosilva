@@ -19,21 +19,7 @@
 .menu.menuOpen {
     display: none;
 
-    @media (max-width: 400px) {
-        width: 100vw;
-        max-width: 100%;
-        height: 28vh;
-        background: #1C0028;
-        box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-    }
-
-    @media (max-width: 26em) {
+    @media only screen and (max-width: 480px) {
         width: 100vw;
         max-width: 100%;
         height: 30vh;
@@ -56,7 +42,7 @@
 .innerIcon {
     display: none;
 
-    @media (max-width: 490px) {
+    @media only screen and (max-width: 480px) {
        margin: 1.7vh 7.7vw 0 7.7vw;
        display: flex;
        width: 2.5rem;
@@ -67,7 +53,7 @@
 .list {
     display: none;
 
-    @media (max-width: 394px) {
+    @media only screen and (max-width: 480px) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -78,7 +64,7 @@
 .listItems {
     display: none;
 
-    @media (max-width: 413px) {
+    @media only screen and (max-width: 480px) {
        color: white;
        display: grid;
        list-style: none;
@@ -90,7 +76,7 @@
 }
 
 .link {
-    @media (max-width: 394px) {
+    @media only screen and (max-width: 480px) {
        margin: 0;
        padding: 0; 
     }
@@ -98,7 +84,7 @@
 }
 
 .linha {
-    @media (max-width: 490px) {
+    @media only screen and (max-width: 480px) {
         width: 66vw;
         height: 1px;
         margin-bottom: 0.6vh;
