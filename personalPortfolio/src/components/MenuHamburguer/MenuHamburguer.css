@@ -70,7 +70,7 @@
 .linha {
     width: 66vw;
     height: 1px;
-    margin-bottom: 0.6vh;
+    padding-bottom: 0.6vh;
     margin-top: 0.3vh;
     background-color: white;
 }
