@@ -11,15 +11,12 @@ export const HeaderStyled = styled.header`
     align-items: center;
     width: 100%;
 
-    @media (max-width: 450px) {
+    @media (max-width: 490px) {
         width: 100vw;
         height: 4vh;
         justify-content: space-around;
         gap: 50px;
-    }
-
-    @media (min-width: 1350px) {
-        width: 100%;
+        background-image: url('https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/fundoNavbarMarmore.png?raw=true');
     }
 `
 
