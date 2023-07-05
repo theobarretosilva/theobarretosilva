@@ -96,7 +96,8 @@
 .link {
     @media (max-width: 490px) {
        margin: 0;
-       padding: 0; 
+       padding: 0;
+       display: grid;
     }
     
 }
@@ -107,6 +108,7 @@
         height: 1px;
         margin-bottom: 0.6vh;
         background-color: white;
+        display: grid;
     }
     
 }
