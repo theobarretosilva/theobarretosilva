@@ -16,7 +16,7 @@ export const HeaderStyled = styled.header`
         height: 4vh;
         justify-content: space-around;
         gap: 50px;
-        background-image: url('https://github.com/theobarretosilva/theobarretosilva/blob/main/personalPortfolio/src/assets/imgs/fundoNavbarMarmore.png?raw=true');
+        background-size: cover;
     }
 `
 
