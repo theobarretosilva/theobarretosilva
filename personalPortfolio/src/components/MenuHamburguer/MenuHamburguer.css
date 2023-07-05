@@ -53,31 +53,24 @@
 }
 
 .listItems {
-
-       color: white;
-       display: grid;
-       list-style: none;
-       font-family: 'Inter', sans-serif;
-       font-size: 1rem;
-       margin: 0;
-       text-align: left;
-    
+    color: white;
+    display: grid;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
 }
 
 .link {
-
-       margin: 0;
-       padding: 0; 
-
-    
+    margin: 0;
+    padding: 0; 
 }
 
 .linha {
-
-        width: 66vw;
-        height: 1px;
-        margin-bottom: 0.6vh;
-        background-color: black;
-    
-    
+    width: 66vw;
+    height: 2px;
+    margin-bottom: 0.6vh;
+    margin-top: 0.1vh;
+    background-color: black;
 }
