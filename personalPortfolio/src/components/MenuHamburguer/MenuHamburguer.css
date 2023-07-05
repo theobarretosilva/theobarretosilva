@@ -57,7 +57,7 @@
     display: grid;
     list-style: none;
     font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0;
     text-align: left;
 }
@@ -70,7 +70,7 @@
 .linha {
     width: 66vw;
     height: 1px;
-    margin-bottom: 0.7vh;
+    margin-bottom: 0.6vh;
     margin-top: 0.3vh;
     background-color: white;
 }
