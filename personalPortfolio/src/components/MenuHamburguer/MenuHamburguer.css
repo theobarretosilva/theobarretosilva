@@ -56,7 +56,7 @@
 .innerIcon {
     display: none;
 
-    @media (max-width: 490px) {
+    @media (max-width: 26em) {
        margin: 1.7vh 7.7vw 0 7.7vw;
        display: flex;
        width: 2.5rem;
@@ -67,7 +67,7 @@
 .list {
     display: none;
 
-    @media (max-width: 394px) {
+    @media (max-width: 26em) {
        display: grid;
        text-align: start;
        width: 100vw;
@@ -78,7 +78,7 @@
 .listItems {
     display: none;
 
-    @media (max-width: 394px) {
+    @media (max-width: 26em) {
        color: white;
        display: grid;
        list-style: none;
@@ -88,13 +88,13 @@
        text-align: left;
     }
 
-    @media (device-width: 390px) {
+    @media (max-width: 26em) {
         color: white;
     }
 }
 
 .link {
-    @media (max-width: 394px) {
+    @media (max-width: 26em) {
        margin: 0;
        padding: 0; 
     }
@@ -102,7 +102,7 @@
 }
 
 .linha {
-    @media (max-width: 490px) {
+    @media (max-width: 26em) {
         width: 66vw;
         height: 1px;
         margin-bottom: 0.6vh;
