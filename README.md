@@ -1,14 +1,11 @@
 <img src="./coding.gif" width = "325px" align = "right" />
 
-## Hey!! My name is Théo 😁🍷
+# Hey!! My name is Théo 😁🍷
 <div align= "justify">
-  • I'm a 17 years old student with experience in systems development 👨‍💻
-  <br/>
-  • I did technical high school in systems development 🎒
-  <br/>
-  • I'm currently studying systems analysis and development 🏫
-  <br/>
-  • I am committed to improve myself in the field of technology and systems development 🧠
+  <h3>• I'm a 17 years old student with experience in systems development 👨‍💻</h3>
+  <h3>• I'm currently studying systems analysis and development 🏫</h3>
+  <h3>• I did technical high school in systems development 🎒</h3>
+  <h3>• I am committed to improve myself in the field of technology and systems development 🧠</h3>
 </div>
 
 <br/>
