@@ -8,7 +8,7 @@
   <br/>
   • I did technical high school in systems development 🎒
   <br/>
-  • I am committed to improve myself in the field of technology and systems development 🧠
+  • I'm committed to improve myself in the field of technology and systems development 🧠
 </div>
 
 <br/>
