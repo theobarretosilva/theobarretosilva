@@ -2,7 +2,7 @@
 
 # Hey!! My name is Théo 😁🍷
 <div align= "justify">
-  • I'm a 17 years old student with experience in systems development 👨‍💻
+  • I'm a 18 years old student with experience in systems development 👨‍💻
   <br/>
   • I'm currently studying systems analysis and development 🏫
   <br/>
