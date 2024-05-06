@@ -15,7 +15,7 @@ export const DivConteudoInicioStyled = styled.div`
 
 export const TextSobreInicioStyled = styled.p`
     font-family: 'Arbutus Slab', sans-serif;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     color: white;
     max-width: 44vw;
     padding-bottom: 4vw;

@@ -11,7 +11,7 @@ export const FooterStyled = styled.footer`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2vw 4vw;
+    padding: 3vh 3vw;
 
     @media (max-width: 490px) {
         flex-direction: column;
@@ -24,7 +24,7 @@ export const PCopyrightStyled = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 
     @media (max-width: 490px) {
         font-size: 4vw;
@@ -42,8 +42,8 @@ export const DivLinksRodapeStyled = styled.div`
 `
 
 export const ImgLinksRodapeStyled = styled.img`
-    width: 3.1vw;
-    height: 3.1vw;
+    width: 2.5vw;
+    height: 5vh;
 
     @media (max-width: 490px) {
         width: 10vw;
